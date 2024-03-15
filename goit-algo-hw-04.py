@@ -60,7 +60,7 @@ sorted_small_time = timeit.timeit(lambda: sorted(small_list.copy()), number=1)
 sorted_medium_time = timeit.timeit(lambda: sorted(medium_list.copy()), number=1)
 sorted_large_time = timeit.timeit(lambda: sorted(large_list.copy()), number=1)
 
-# Друк результатів
+
 print("Merge Sort:")
 print("Small List Time:", merge_sort_small_time)
 print("Medium List Time:", merge_sort_medium_time)
